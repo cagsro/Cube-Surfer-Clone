@@ -6,7 +6,7 @@ public class CubeController : MonoBehaviour
 {
     public static CubeController instance;
     private Touch touch;
-    public float speed = 5;
+    public float speed = 10;
     private float speedModifier;
     public float minCandlePos;
     public float maxCandlePos;
@@ -44,7 +44,6 @@ public class CubeController : MonoBehaviour
                     transform.position.z);
             }
         }
-        // Mumun yoldan disari cikmaması icin gereken kod (clamp islemi)
         transform.position = new Vector3(Mathf.Clamp(transform.position.x,minCandlePos,maxCandlePos),Mathf.Clamp(transform.position.y,0f,200f),transform.position.z);
         
     }

@@ -4,16 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Cube1
-  - Barrier2
-  - Barrier5
-  - Cube5
-  - Barrier3
-  - Barrier6
-  - Barrier11
-  - Barrier9
   - Barrier1
   - FinishPad
+  - Pick
+  - Engel
   layers:
   - Default
   - TransparentFX
